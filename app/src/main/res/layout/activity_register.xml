@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_register"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/app_name"
+            android:fontFamily="@font/fontenetflix"
+            android:textSize="70dp"
+            android:textColor="@color/colorTextPrimary"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/registerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/emailRegisterEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/white"
+            android:hint="@string/hint_emails_singin"
+            android:backgroundTint="@color/colorTextPrimary"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/passwordRegisterEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/colorTextPrimary"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:hint="@string/hint_password_singin"/>
+
+        <EditText
+            android:id="@+id/passwordRegisterConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/colorTextPrimary"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:hint="@string/passwordConfirm"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/singupButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:text="sing up"
+            android:textSize="20dp"
+            android:fontFamily="@font/fontenetflix"
+            app:cornerRadius="0dp"
+            app:backgroundTint="@color/colorTextPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="20dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/singupGoogleAccount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:fontFamily="@font/fontenetflix"
+            android:text="@string/textGoogleAccountSingup"
+            android:textSize="20dp"
+            app:backgroundTint="@color/colorTextPrimary"
+            app:cornerRadius="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/singinIcloudAccount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:text="@string/textIcloudSingup"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_baseline_cloud_24"
+            android:fontFamily="@font/fontenetflix"
+            app:cornerRadius="0dp"
+            app:backgroundTint="@color/iCloudColor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/buttonReturnToLoginPage"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/transparentColor"
+            android:gravity="center_horizontal"
+            android:text="@string/textSinginAccount"
+            android:textAlignment="center"
+            android:textColor="@color/colorOnboardIndicatorInactive" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

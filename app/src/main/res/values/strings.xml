@@ -2,4 +2,24 @@
     <string name="app_name">Glueclass</string>
     <string name="title_first_item_container">COLAS RAPIDAS E SEGURAS</string>
     <string name="text_first_item_container">Com o GlueClass você pode criar salas e gerenciar quem pode entrar e compartilhar questões</string>
+    <string name="hint_password_singin">Your Password</string>
+    <string name="hint_emails_singin">Your E-mail</string>
+    <string name="textIcloudSingin">Sing In with Icloud</string>
+    <string name="textGoogleAccountSingin">Sing In with Google</string>
+    <string name="textIcloudSingup">Sing Up with Icloud</string>
+    <string name="textGoogleAccountSingup">Sing Up with Google</string>
+    <string name="createAccountTextView">Create Account</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="textSinginAccount">Have account? Sing in</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>

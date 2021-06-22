@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main_menu">
+
+    <GridLayout
+        android:id="@+id/gridLastRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Button"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
